@@ -10,7 +10,7 @@
 
 |                                     |                                     |
 | ----------------------------------- | ----------------------------------- |
-| ![](vid2.gif) | ![](vid1.gif) |
-| ![](vid3.gif) | ![](vid4.gif) |
-| ![](vid5.gif)                                    |                                     |
+| ![vid2](videos_exp_1_fologram/vid2.gif) | ![vid1](videos_exp_1_fologram/vid1.gif) |
+| ![vid3](videos_exp_1_fologram/vid3.gif) | ![vid4](videos_exp_1_fologram/vid4.gif) |
+| ![vid5](videos_exp_1_fologram/vid5.gif)                                    |                                     |
 
