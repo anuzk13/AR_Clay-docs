@@ -37,4 +37,6 @@ There are a few issues with this…The Track State component will trigger with a
 
 You can see the update in the position that gets triggered multiple times in [this video](https://photos.app.goo.gl/w5Y3tD8GLVS3kGVt8)
 
+![difting_UI_on_update](media_prototype_1/difting_UI_on_update.gif)
+
 Is there a way to better detect the click on a single object or know that an object was clicked without the recursive loop?
