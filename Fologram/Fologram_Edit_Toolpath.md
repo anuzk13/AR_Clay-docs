@@ -2,7 +2,7 @@ In fologram plugin in grasshopper Sync object can be set as grabbable or not. I 
 
 # Exploring grashoppe capabilities
 
-![](img_20230512123204.png)
+![img_20230512123204](media_prototype_1/img_20230512123204.png)
 
 I can use the Track taps to identify which object has been moved and it's index to propagate the changes to the other spheres. When dragging track taps updates twice, once for the start and once for the end.
 I used [this example](https://community.fologram.com/t/how-to-keep-track-of-devices-interacting-with-objects-in-augmented-reality/193) to show how to detect the taps
@@ -40,3 +40,8 @@ You can see the update in the position that gets triggered multiple times in [t
 ![difting_UI_on_update](media_prototype_1/difting_UI_on_update.gif)
 
 Is there a way to better detect the click on a single object or know that an object was clicked without the recursive loop?
+
+I got a better structure for detecting the state change and I connected it to my own code that syncs the centroids of the spheres [here](https://github.com/anuzk13/GrashopperFologramClay/blob/main/drag_update_v2.gh)
+I still need to detect when the tap is in an object and when is it not
+
+![move_in_sync](media_prototype_1/move_in_sync.gif)
