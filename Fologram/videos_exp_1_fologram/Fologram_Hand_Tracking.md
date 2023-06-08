@@ -1,0 +1,4 @@
+- The release event and the track taps component don't work with the hands only with rays
+- Not sure how to create a single "Release Event" when the user stops tapping. Maybe looking into custom events in grasshopper could help but that seems more advanced than what we know how to do with grasshopper.
+- The intersection of a ray and a mesh only works for the mesh as the touch starts, then it is not preserved by the time we want to update the position. A challenge here is both accuracy and how to store the last not null value
+[I pushed some explorations on handtracking here that could be the start to solving some issues here but not sure it can be done easily](gitkraken://repolink/3b9a6abc5bb0dcd3f0df92989bdfbf25bc46e44e/commit/6e949a8bff144a56449cccfe42a7216a9043dfe6?url=https%3A%2F%2Fgithub.com%2Fanuzk13%2FAR_Clay-proj.git)
